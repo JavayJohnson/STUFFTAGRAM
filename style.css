@@ -1,0 +1,118 @@
+
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #f4f4f4;
+    padding: 20px;
+    border-bottom: 1px solid #ddd;
+}
+
+nav button {
+    margin: 0 10px;
+    padding: 10px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+nav button:hover {
+    background-color: #0056b3;
+}
+
+#registration-page {
+    margin-top: 20px;
+    border: 5px solid red;
+    padding: 20px;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: left;
+    background-color: #f9f9f9;
+    border-radius: 10px;
+}
+
+#registration-page h1 {
+    text-align: center;
+}
+
+#registration-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#registration-form label {
+    width: 100%;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+#registration-form input, 
+#registration-form textarea, 
+#registration-form button {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+#registration-form button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+#registration-form button:hover {
+    background-color: #0056b3;
+}
+
+
+.hidden {
+    display: none;
+}
+
+#feed {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.feed-item {
+    margin: 10px 0;
+    padding: 10px;
+    width: 80%;
+    background-color: #fafafa;
+}
+
+.feed-item img {
+    width: 3in;
+    height: 3in;
+    margin-bottom: 10px;
+    object-fit: cover;
+    outline: 5px solid red;
+    box-sizing: border-box;
+}
+
+#search-bar, #create-post {
+    margin: 20px 0;
+}
+
+#searchInput, #postContent {
+    width: 80%;
+    padding: 10px;
+    margin: 10px 0;
+}
+
+textarea {
+    resize: none;
+}
